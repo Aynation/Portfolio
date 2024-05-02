@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/501be156af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/—Pngtree—high-tech brain_5406718.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas bars fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+
+            
+            <div class="main-text">
+                <P> Front-End Web Developer</P>
+                <h1>Hi, I'm Shonubi<br><span>Ayomide</span> from Nigeria</h1>
+            </div>
+        </div>
+        <img src="images/man standing.png" alt="" class="newimage">
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/casual-life-3d-man-working-on-laptop-and-drinking-coffee.png" alt="" class="newimage2">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="about">About Me</h1>
+                    <p class="aboutme">I am a front-end developer who is responsible for creating the user interface and experience of a website or application. I have expertise in HTML, CSS, and JavaScript to design and implement interactive and visually appealing elements. I have collaborations with designers and other developers to ensure seamless integration and optimal performance. Additionally, I stay updated on emerging technologies to enhance user experiences and maintain a responsive and accessible design.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Collaborated with other interns to design and develop a fully functional website with
+                                HTML, CSS and Javascript
+                            </li>
+
+                            <li><span>2023</span><br>Web App Development Training at United Greater Way Nigeria</li>
+
+                            <li><span>2023</span><br>UI/UX Training at United Greater Way Nigeria</li>
+
+                            <li><span>2022</span><br>ICT Assistant in Mutual Benefit Assurance Plc.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Certificate of Web App Development Training at United Greater Way Nigeria</li>
+                            <li><span>2022</span><br>OND from OFFICE TECHNOLOGY AND MANAGEMENT</li>
+                            <li><span>2019</span><br>SSCE from The African Church Model College,</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service -->
+<div id="services">
+    <div class="container">
+        <h1 class="about-serve">My Services</h1>
+    
+     <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development services help create all types of web-based software and ensure great experience for web users. Different types of web solutions may seem similar from the outside but we approach them differently and know what factors are winning in each case.</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI predominantly concerns itself with the aesthetic elements of design, ensuring visually appealing, pixel-perfect digital solutions. On the other hand, UX design services delve into user interactions with a company, focusing on creating seamless, easy-to-navigate interfaces for an optimized user journey.</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="about-work">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/netimages.png" alt="" class="pngimage">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Netflix Clone Webpage <br> </p>
+                        <a href="Netflix Clone/netflix.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <h3 class="position">Netflix Clone</h3>
+                </div>
+                <div class="work">
+                    <img src="images/techkeeds image 1.png" alt="" class="pngimage">
+                    <div class="layer">
+                        <h3>Tech Keeds</h3>
+                        <p>Web Development Learning Website <br> The Login Webpage <br> </p>
+                        <a href="Tech Keeds/tech.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <h3 class="position">Web Development Site</h3>
+                </div>
+                <div class="work">
+                    <img src="images/coffeeimage 2.png" alt="" class="pngimage">
+                    <div class="layer">
+                        <h3>Coffee Shop</h3>
+                        <p>Online Coffee Website <br> Order now, Fast and Reliable. <br> </p>
+                        <a href="Full coding page new/coffee.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <h3 class="position">Online Coffee Site</h3>
+                </div>
+            </div>
+            <!-- <div class="clone1">
+                <h3 class="clone">Netflix Clone</h3>
+                <h3 class="clone">Web Development Site</h3>
+                <h3 class="clone">Online Coffee Site</h3>
+            </div> -->
+            
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+  <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="rowa">
+                <div class="contact-left">
+                    <h1 class="about">Contact Me</h1>
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact-right">
+                    <p><i class="fa-solid fa-envelope"></i>shonubiayomide17@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>09049412551</p>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/Aynation?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_ay_nation_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.co/bS58KS3Szw"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Current CV.pdf" download class="btn btn2 dwnld"><i class="fa fa-download"></i>&nbsp;  Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ayomide. Made by Aynation<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+  
+
+
+
+
+    <script src="port.js"></script>
+
+</body>
+</html> 
