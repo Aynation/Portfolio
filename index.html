@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/501be156af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header" id="home">
+        <div class="navbar" data-aos="fade-down">
+            <h3 class="logo"><a href="#">/dev.</a><span>ay</span></h3>
+            <ul class="nav-links">
+                <li class="hhome"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="Images/sun.png" alt="" id="theme" class="icon">
+        </div>
+    </section>
+    <section class="white-space">
+
+        <section class="pad2">
+            <div class="content">
+                <div class="main-text" id="main-hero" data-aos="fade-right">
+                    <p class="par" > Front-End Web <span id="typed-text"></span></p>
+                    <h1 class="bigtext">Hi, I'm Shonubi<br><span>Ayomide</span> from Nigeria</h1>
+                </div>
+                <div class="wrapper" id="image">
+                    <picture>
+                        <source media="(min-width: 40em)" srcset="Images/ayo4.png"  class="img-pic"><!--for desktop-->
+            
+                        <img src="Images/ayo4.png" alt="" class="img-pic" data-aos="fade-left"><!--for mobile-->
+                    </picture>
+                </div>
+            </div>     
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="pad pad2">
+                    <div class="about-col-2">
+                        <h1 class="about subtext" data-aos="fade-up">About Me</h1>
+                        <p class="aboutme" data-aos="fade-up">I am a front-end developer who is responsible for creating the user interface and experience of a website or application. I have expertise in HTML, CSS, and JavaScript to design and implement interactive and visually appealing elements. I have collaborations with designers and other developers to ensure seamless integration and optimal performance. My experience includes designing and developing a personal portfolio website and an eCommerce website, which showcase my ability to create responsive and dynamic web applications. I am eager to contribute to a dynamic team, leveraging my strong communication, problem-solving, and creative skills to tackle challenging projects. 
+                        Additionally, I stay updated on emerging technologies to enhance user experiences and maintain a responsive and accessible design. I am ready to bring my expertise to a collaborative and innovative work environment. Thank you for visiting my website. Feel free to contact me or connect with me.
+                        </p>
+                        <div class="tab-titles" data-aos="fade-up">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
+                            <ul>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience" data-aos="fade-up"> 
+                            <ul>
+                                <li><span>2023</span><br>Collaborated with other interns to design and develop a fully functional website with
+                                    HTML, CSS and Javascript
+                                </li>
+                                <li><span>2023</span><br>Web App Development Training at United Greater Way Nigeria</li>
+                                <li><span>2023</span><br>UI/UX Training at United Greater Way Nigeria</li>
+                                <li><span>2022</span><br>ICT Assistant in Mutual Benefit Assurance Plc.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education" data-aos="fade-up">
+                            <ul>
+                                <li><span>2023</span><br>Certificate of Web App Development Training at United Greater Way Nigeria</li>
+                                <li><span>2022</span><br>OND from OFFICE TECHNOLOGY AND MANAGEMENT</li>
+                                <li><span>2019</span><br>SSCE from The African Church Model College,</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tools">
+            <h2 class="tool" data-aos="fade-up">My Tools</h2>
+            <div class="alltools">
+              <i class="fa-brands fa-html5 obj" data-aos="flip-right"></i>
+              <i class="fa-brands fa-css3 obj" data-aos="flip-right"></i>
+              <i class="fa-brands fa-js obj" data-aos="flip-right"></i>
+              <i class="fa-brands fa-bootstrap obj" data-aos="flip-right"></i>
+            </div>
+        </section>
+
+        <!-- Services-->
+        <section id="services">
+            <div class="pad">
+                <h1 class="subtext" data-aos="fade-up">My Services</h1>
+            
+                <div class="services-list">
+                    <div data-aos="fade-right">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p class="services-text">Web development services help create all types of web-based software and ensure great experience for web users. Different types of web solutions may seem similar from the outside but we approach them differently and know what factors are winning in each case.</p>
+                    </div>
+                    <div data-aos="fade-left">
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p class="services-text">UI predominantly concerns itself with the aesthetic elements of design, ensuring visually appealing, pixel-perfect digital solutions. On the other hand, UX design services delve into user interactions with a company, focusing on creating seamless, easy-to-navigate interfaces for an optimized user journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" >
+            <div class="pad">
+                <h1 class="subtext" data-aos="fade-up">My Work</h1>
+                <div class="worklist">
+                    <div class="work" data-aos="fade-up" data-aos-delay="300">
+                        <a href="Full coding page new/coffee.html" target="_blank"><img src="Images/coffeeimage 2.png" alt="" class="pngimage"></a>
+                        <div class="layer">
+                            <h3 class="h3">Coffee Shop</h3>
+                            <p class="port-text">Online Coffee Website <br> Order now, Fast and Reliable. <br> </p>
+                            <a href="Coffee Site/coffee.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3 class="position">Online Coffee Site</h3>
+                    </div>
+                    <div class="work" data-aos="fade-up" data-aos-delay="100">
+                        <a href="Netflix Clone/netflix.html" target="_blank"><img src="Images/netimages.png" alt="" class="pngimage"></a>
+                        <div class="layer">
+                            <h3 class="h3">Netflix Clone</h3>
+                            <p class="port-text">Netflix Clone Webpage <br> </p>
+                            <a href="Netflix Clone/netflix.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3 class="position">Netflix Clone</h3>
+                    </div>
+                    <div class="work" data-aos="fade-up" data-aos-delay="200">
+                        <a href="Tech Keeds/tech.html" target="_blank"><img src="Images/web login.png" alt="" class="pngimage"></a>
+                        <div class="layer">
+                            <h3 class="h3">Tech Keeds</h3>
+                            <p class="port-text">Web Development Learning Website <br> The Login Webpage <br> </p>
+                            <a href="Tech Keeds/tech.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3 class="position">Web Development Site</h3>
+                    </div>
+                    <div class="work" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#" target="_blank"><img src="Images/figma.png" alt="" class="pngimage"></a>
+                        <div class="layer">
+                            <h3 class="h3">Figma</h3>
+                            <p class="port-text">Figma Showcase <br> Work Of Art<br> </p>
+                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3 class="position">Figma Showcase</h3>
+                    </div>
+                </div>
+                <a href="#" class="btnn" data-aos="fade-up">See More</a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="pad">
+                <div class="contact-left">
+                    <h1 class="subtext" data-aos="fade-up">Contact Me</h1>
+                    <form name="submit-to-google-sheet" data-aos="fade-right">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="2" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="contact-right" data-aos="fade-right">
+                    <p class="reach-out"><i class="fa-solid fa-envelope"></i>shonubiayomide17@gmail.com</p>
+                    <p class="reach-out"><i class="fa-solid fa-square-phone"></i>09049412551</p>
+                </div>
+                <!-- <div class="social-icons"> -->
+                <div class="social-icons" data-aos="fade-up">
+                    <a href="https://github.com/Aynation?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_ay_nation_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.co/bS58KS3Szw"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="Current CV.pdf" download class="btnn downld" data-aos="fade-up"><i class="fa fa-download"></i>&nbsp;  Download CV</a>
+            </div>
+        </section>
+    </section>
+    <div class="copyright">
+        <p>Copyright © Ayomide. Made by Aynation<i class="fa-solid fa-heart"></i></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typeit/dist/typeit.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3eUb_vYcqOXU7RrI1MlVn_KMbsgKkmPFpDkuGuMPWGdkSSn-8vDzWxGvx9ZaGrc1SXQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

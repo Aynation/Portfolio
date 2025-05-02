@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- fonts link-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/501be156af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <header>
+        <a href="#home" class="logo">
+            <img class="cof" src="images/logo.png" alt="">
+        </a>
+
+        <nav>
+            <ul id="sidemenu" class="navbar">
+                <li class="hom"><a href="#home" class="active">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#history">Our History</a></li>
+                <li><a href="#menu">Popular <span>Items</span> </a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <i class="fas fa-solid fa-xmark cons close"  onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars cons" onclick="openmenu()"></i>
+        </nav>
+    
+    
+
+        <div class="header-icons">
+            <a href=""><i><ion-icon class="bot" name="search-sharp"></ion-icon></i></a>
+            <a href=""><i><ion-icon class="bot" name="notifications-sharp"></ion-icon></i></a>
+            <a href=""><i><ion-icon class="bot" name="cart-sharp"></ion-icon></i></a>
+            <!-- <div id="menu-icon" >
+                <ion-icon name="menu-sharp"></ion-icon>
+            </div> -->
+        </div>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Order Your <br> Favourite Coffee.</h1>
+            <p>We promise you'll enjoy every sweet moment to find your favourite. Drink what you love and save your time.</p>
+            <div class="home-btnn">
+                <a href="#" class="btn nnn">Place an Order</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img  src="images/coffee cup.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- categories -->
+    <section class="categories reveal" id="categories">
+        <div class="center-text text">
+            <strong class="stro">Categories</strong>
+            <h2>Our Categories Menu</h2>
+        </div>
+        <div class="categories-content">
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/m1.png" alt="">
+                </div>
+                <h3>Varies Of Coffee</h3>
+                <p>Find your favourite coffee, drink what you love and save time. <br> Drink what you love and save time.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/m8.png" alt="">
+                </div>
+                <h3>Varies Of Coffee</h3>
+                <p>Find your favourite coffee, drink what you love and save time. <br> Drink what you love and save time.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/m2.png" alt="">
+                </div>
+                <h3>Varies Of Coffee</h3>
+                <p>Find your favourite coffee, drink what you love and save time. <br> Drink what you love and save time.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- history -->
+    <section class="history reveal" id="history">
+        <div class="history-img">
+            <img src="images/image2.png" alt="">
+        </div>
+
+        <div class="history-text text">
+            <strong class="stron">Our History</strong>
+            <h2>Discover Our Glory Beginning</h2>
+            <p>Find your favourite coffee, drink what you love and save time. <br> Drink what you love and save time.</p>
+            <a href="#" class="btn nn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- menu -->
+    <section class="menu reveal" id="menu">
+        <div class="center-text text">
+            <strong class=" our">Our Popular Menu</strong>
+            <h2>Some Popular Items</h2>
+        </div>
+
+        <div class="menu-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/m7.png" alt="">
+                </div>
+                <h5>Coffee</h5>
+                <h6>$50.99</h6>
+                <div class="ratings">
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star-half"></ion-icon></i></a>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/m4.png" alt="">
+                </div>
+                <h5>Coffee</h5>
+                <h6>$50.99</h6>
+                <div class="ratings">
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star-half"></ion-icon></i></a>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/m5.png" alt="">
+                </div>
+                <h5>Coffee</h5>
+                <h6>$40.99</h6>
+                <div class="ratings">
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star-half"></ion-icon></i></a>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/m6.png" alt="">
+                </div>
+                <h5>Coffee</h5>
+                <h6>$42.99</h6>
+                <div class="ratings">
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star"></ion-icon></i></a>
+                    <a href="#"><i><ion-icon name="star-half"></ion-icon></i></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-btnn">
+            <a href="" class="btn nn">More Items</a>
+        </div>
+    </section>
+
+
+    <!-- testimonial -->
+    <section class="testimonial reveal" id="testimonial">
+        <div class="testimonial-left">
+            <strong class="stron text">Testimonial</strong>
+            <h2>What People Say <br>About Us</h2>
+        </div>
+
+        <div class="testimonial-right">
+            <div class="testimonial-img">
+                <img src="images/b2.png" alt="">
+            </div>
+            <h4>Aliko Dangote</h4>
+            <h6>Lagos, Nigeria</h6>
+            <p>"The taste was excellent. The service was good, very fast response.
+                The coffee was delicious, thank you so much"</p>
+        </div>
+    </section>
+
+
+    <!-- newsletter -->
+    <section class="newsletter reveal">
+        <div class="center-text subs">
+            <h2 class="sub">Suscribe Newletter</h2>
+        </div>
+        <div>
+            <form action="">
+                <input type="email" name="" placeholder="Enter your email..." class="email" required>
+                <input type="submit" value="Suscribe" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact reveal" id="contact">
+        <div class="contact-box second">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <div class="icons">
+                <a href="#"><i><ion-icon name="logo-facebook"></ion-icon></i></a>
+                <a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i></a>
+                <a href="#"><i><ion-icon name="logo-youtube"></ion-icon></i></a>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h3>Support</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+
+        <div class="contact-box">
+            <h3>Links</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+
+        <div class="contact-box">
+            <h3>Our Menu</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+    </section>
+    
+    <!-- copyright-->
+    <div class="copyright">
+        <p><marquee>Created by Shonubi-Ambali Ayomide.O</marquee></p>
+    </div>
+
+    
+
+
+
+    
+
+    <!-- script.js link-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- script.js link-->
+    <script src="script.js"></script>
+</body>
+</html>

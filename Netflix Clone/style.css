@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 109.5vh;
+	position: relative;
+	background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('Netflix2.jpg') no-repeat center / cover;
+}
+
+img{
+    margin-left: 155px;
+    width: 160px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.sign{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px;
+    margin-right: 100px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(224, 4, 4);
+    border-radius: 3.5px;
+    float: right;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.content{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6.5rem;
+}
+
+.un{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+p{
+    margin-top: 9px;
+    color: #fff;
+	font-weight: 200;
+	font-size: 1.6rem;
+	line-height: 1.25;
+    word-spacing: 1.4px;
+}
+
+h6{
+    margin-top: 23px;
+    color: #fff;
+	font-weight: 200;
+	font-size: 1.3rem;
+	line-height: 1.25;
+}
+
+.mail{
+    margin-top: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    border: 1.5px rgb(80, 80, 80) solid;
+    background-color: rgba(70, 70, 68, 0.5);
+    height: 60px;
+    width: 370px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.linkmail{
+    background-color: rgb(224, 4, 4);
+    color: #fff;
+    width: 900px;
+    height: 58px;
+    margin-left: 8px;
+    font-weight: 250;
+	font-size: 1.3rem;
+	line-height: 1.40;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 23px;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+div .con {
+    color: #fff;
+    font-size: 23px;
+}
+
+.mail ion-icon{
+    font-size: 15px;
+}
+
+.linkmail:hover{
+    background-color: rgb(202, 2, 2);
+    transition: ease;
+}
+
+::placeholder{
+    margin-left: -300px;
+    color: rgb(148, 147, 147);
+    font-size: 16px;
+    font-weight: 540;
+    font-family: 'Arial', sans-serif;
+    padding-left: 8px;
+}
+
+.line{
+    color: rgb(46, 46, 46);
+    line-height: 8px;
+    background-color: rgb(46, 46, 46);
+}
+
+.enjoy{
+    height: 70vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 230px;
+    font-family: 'Arial', sans-serif;
+}
+
+.move{
+    margin-top: -40px;
+    position: relative;
+}
+
+h2{
+    font-size: 44px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 27px;
+    font-weight: 300;
+}    
+    
+/* .story__card__right{
+    margin-top: -600px;
+    margin-left: 800px;
+} */
+
+.tv__anime{
+    width: 300px;
+    margin-left: -510px;
+    position: absolute;
+    bottom: 83.5px;
+    right: 210px;
+}
+
+.tv__img{
+    width: 420px;
+    margin-left: 550px;
+    margin-top: -200px;
+}
+
+.line1{
+    background-color: rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
+    line-height: 10px;
+    height: fit-content;
+}
+
+.discover{
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding-left: 700px;
+    padding-top: 140px;
+    font-family: 'Arial', sans-serif;
+}
+
+.line2{
+    background-color: rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
+    line-height: 10px;
+    height: fit-content;
+}
+
+.dis{
+    margin-left: -750px;
+    margin-top: -40vh;
+}
+
+.flix{
+    width: 400px;
+}
+
+.watch{
+    height: 67vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 250px;
+    font-family: 'Arial', sans-serif;
+}
+
+.line3{
+    background-color: rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
+    line-height: 10px;
+    height: fit-content;
+}
+
+.create{
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding-top: 170px;
+    padding-left: 700px;
+    font-family: 'Arial', sans-serif;
+}
+
+.line4{
+    background-color: rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
+    line-height: 10px;
+    height: fit-content;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+    color: #fff;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 50px;
+    margin-bottom: 20px;
+}
+
+.ques{
+    background-color: #2D2D2D;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.ques:hover{
+    background-color: #545454;
+}
+
+.ans{
+    max-height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height.2s ease-in-out;
+}
+
+.faq-list{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq.active .ans{
+    max-height: 310px;
+}
+
+.ans p{
+    background-color: #2D2D2D;
+    padding: 30px;
+    font-size: 30px;
+    border-top: 1px solid #000;
+}
+
+.faq i{
+    transition: all.2s ease-in-out;
+}
+
+.faq.active i{
+    transform: rotate(45deg);
+}
+
+.line5{
+    background-color: rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
+    line-height: 10px;
+    height: fit-content;
+}
+
+.mail2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* .input2{
+    margin-top: 20px;
+    border: 1.5px rgb(80, 80, 80) solid;
+    background-color: rgba(70, 70, 68, 0.5);
+    height: 60px;
+    width: 370px;
+    border-radius: 5px;
+    color: #fff;
+    border-color: rgb(3, 172, 3);
+} */
+
+.end {
+    background-color: black;
+    color: rgb(158, 157, 157);
+    padding-top: 80px;
+    height: 80vh;
+}
+
+footer {
+    width: 70%;
+    margin-left: 20vh;
+}
+
+footer .links ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-decoration: underline;
+    list-style: none;
+    font-size: 15px;
+}
+
+footer .links > * {
+    margin-bottom: 40px;
+}
+
+.contact {
+    padding-bottom: 30px;
+    color: rgb(158, 157, 157);
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+}
+
+li {
+    cursor: pointer;
+    width: fit-content;
+}
